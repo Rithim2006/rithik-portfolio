@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rithik's Portfolio </title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<body>
+</body>
+<header>
+    <nav class="nav">
+        <div class="left">
+            Rithik's Portfolio
+        </div>
+        <div class="right">
+            <ul>
+                <li> <a href="portfolio.html">Home</a> </li>
+                <li><a href="">About</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">Contacts</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<main>
+    <section class="first-sec">
+        <div class="left-sec">
+            <div style="display:inline;">Hi,My name is <span class="purple">Rithik</span></div>
+            <div>and I am a passionate</div>
+            <span id="element"></span>
+        </div>
+        <div class="right-sec">
+            <img src="bg.png" alt="" srcset="" width="80%">
+        </div>
+        </secction>
+        <hr>
+        <!-- <section class="second-sec">
+            <div class="aboutme">
+            <h1>About Me</h1>
+            <p>Hi there! I’m Rithik, an aspiring Data Analyst and Web Developer with a fresh perspective and a deep drive to learn. Having recently completed my B.Tech in Computer Science & Engineering from Techno International Batanagar (affiliated with MAKAUT), I specialize in Data Analysis and Web Development, and I am constantly sharpening my skills through hands-on practice and modern tools. I might be new to the industry, but I bring high energy, adaptability, and a genuine excitement to grow. Take a look at my work samples below, and feel free to reach out!</p>
+            </div>
+        </section> -->
+</main>
+<!-- Load library from the CDN -->
+<script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+
+<!-- Setup and start animation! -->
+<script>
+    var typed = new Typed('#element', {
+        strings: ['Web Developer,', 'Data Analyst,', 'Graphic Designer.'],
+        typeSpeed: 50,
+    });
+</script>
+</body>
+
+</html>
