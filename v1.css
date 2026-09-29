@@ -76,8 +76,8 @@ main {
 }
 
 .left-sec {
-    /* font-size: 1.34rem; */
-    font-size: xxx-large;
+    font-size: 4rem;
+    /* font-size: xxx-large; */
     text-align: center;
     /* border:2px dashed #ff6b6b; */
 
@@ -200,6 +200,7 @@ footer {
 }
 
 
+
 .third ul li{
     display: inline;
     letter-spacing: 0.1rem;
@@ -211,7 +212,7 @@ footer {
     /* min-height: 14rem; */
 }
 .third ul li:hover {
-    transform: scale(1.04);
+    transform: scale(1.015);
 }
 
 
@@ -234,6 +235,9 @@ footer {
         font-size: xx-large;
         height: 28vh;
     }
+.third ul li:hover {
+    transform: scale(1.04);
+}
 }
 
 @keyframes myAnimation {
