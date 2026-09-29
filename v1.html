@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="v1.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Rithik's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <sec class="first">
+            <div class="left-sec">Hi,My name is 
+                <span class="white">Rithik</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+            </div>
+            <hr>
+            <div class="right-sec">
+                <img src="bg.png" alt="" srcset="" width="190px">
+            </div>
+        </sec>
+        <sec class="second">
+        <div class="aboutme">
+            <h1>About Me</h1>
+            <p>Hi there! I’m Rithik, an aspiring <span><em> Data Analyst</em></span> and <span><em>Web Developer</em></span> with a fresh perspective and a deep
+                drive to learn. Having recently completed my<span> <em>B.Tech</em></span> in <span><em>Computer Science & Engineering</em></span> from <span><em>Techno
+                International Batanagar</em> </span>(affiliated with <span><em>MAKAUT</em>)</span>, I specialize in Data Analysis and Web Development, and
+                I am constantly sharpening my skills through hands-on practice and modern tools. I might be new to the
+                industry, but I bring high energy, adaptability, and a genuine excitement to grow. Take a look at my
+                work samples below, and feel free to reach out!</p>
+        </div>
+    </sec>
+
+    </main>
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer,', 'Data Analyst,', 'Graphic Designer.'],
+            typeSpeed: 70,
+            backspeed: 50,
+            loop: true
+        });
+    </script>
+</body>
+
+</html>
